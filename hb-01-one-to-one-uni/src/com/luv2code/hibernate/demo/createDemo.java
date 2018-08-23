@@ -18,8 +18,7 @@ public class createDemo {
 		   Session session=factory.getCurrentSession();
 		  
 		  try { 
-			  //System.out.println("in try block");
-			  //create the objects
+			 
 			  Instructor tempInstructor=new Instructor("Radha","harini","radhaHarini.com");
 			  
 			  InstructorDetail tempInstructorDetail=new InstructorDetail("http://www.google.com","developing code");
