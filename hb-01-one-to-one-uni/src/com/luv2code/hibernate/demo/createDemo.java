@@ -20,9 +20,9 @@ public class createDemo {
 		  try { 
 			  //System.out.println("in try block");
 			  //create the objects
-			  Instructor tempInstructor=new Instructor("Madhu","villa","madhuVilla.com");
+			  Instructor tempInstructor=new Instructor("Radha","harini","radhaHarini.com");
 			  
-			  InstructorDetail tempInstructorDetail=new InstructorDetail("http://www.youtube.com/youtube","Interest on coding");
+			  InstructorDetail tempInstructorDetail=new InstructorDetail("http://www.google.com","developing code");
 		     
 			  //associate the objects
 			  tempInstructor.setInstructorDetail(tempInstructorDetail);
